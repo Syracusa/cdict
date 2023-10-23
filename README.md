@@ -1,5 +1,4 @@
 # cdict 
-## Description
 + Simple string to string dictionary implementation
 
 ## Implementation Detail
