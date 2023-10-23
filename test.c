@@ -26,6 +26,7 @@ int main() {
 
     dict_delete(fruit_price, "Watermelon");
     dict_delete(fruit_price, "Watermelon");
+    dict_delete(fruit_price, "Maybe grape?");
 
     dict_dump(fruit_price, stdout);
 
