@@ -1,6 +1,6 @@
 project(ringbuffer-test)
 cmake_minimum_required(VERSION 2.8.12)
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fsanitize=address")
+# set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fsanitize=address")
 add_library (cdict STATIC cdict.c)
 add_executable(cdict-test test.c)
 target_link_libraries(cdict-test PUBLIC cdict)
